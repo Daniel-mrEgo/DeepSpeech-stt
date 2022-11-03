@@ -77,7 +77,7 @@ audioStream.on("finish", () => {
   }
 
   let metadata = model.sttWithMetadata(audioBuffer, 1);
-  console.log(metadata.transcripts[0]);
+  // console.log(metadata.transcripts[0]);
   //   console.log(candidateTranscriptToString(metadata.transcripts[0]));
   //   consloe.log(DeepSpeech.FreeMetadata(metadata));
 
